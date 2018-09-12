@@ -16,7 +16,7 @@ This is a Spring Boot project (v 1.5.16) that consumes an external API and retur
 
 Project will be launched: http://localhost:8080
 
-Request example: http://localhost:8080/api/hotels/cheapest?check_in=2018-12-15&check_out=2018-12-16&location=YVR
+Example: http://localhost:8080/api/hotels/cheapest?check_in=2018-12-15&check_out=2018-12-16&location=YVR
 
 # External API
 
