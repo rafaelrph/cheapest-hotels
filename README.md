@@ -12,7 +12,7 @@ This is a Spring Boot project (v 1.5.16) that consumes an external API and retur
 
 1. Clone the repository
 2. Go to the project's folder on the command line
-3. mvn spring-boot:run
+3. Launch command: mvn spring-boot:run
 
 Project will be launched: http://localhost:8080/api/hotels/cheapest
 
