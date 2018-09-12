@@ -15,6 +15,11 @@ public class HotelDTO extends GenericDTO {
 	private String property_name;
 	
 	/**
+	 * Price
+	 */
+	private PriceDTO total_price;
+	
+	/**
 	 * Object of Address
 	 */
 	private AddressDTO address;
@@ -24,10 +29,6 @@ public class HotelDTO extends GenericDTO {
 	 */
 	private List<ContactDTO> contacts;
 	
-	/**
-	 * List of awards (ratings)
-	 */
-	private List<AwardDTO> awards;
 	
 	public HotelDTO() {
 		
@@ -57,12 +58,12 @@ public class HotelDTO extends GenericDTO {
 		this.contacts = contacts;
 	}
 
-	public List<AwardDTO> getAwards() {
-		return awards;
+	public PriceDTO getTotal_price() {
+		return total_price;
 	}
 
-	public void setAwards(List<AwardDTO> awards) {
-		this.awards = awards;
+	public void setTotal_price(PriceDTO total_price) {
+		this.total_price = total_price;
 	}
 	
 }

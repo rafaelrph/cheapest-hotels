@@ -3,6 +3,7 @@ package com.info.cheapest.controllers;
 import java.util.List;
 
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -29,6 +30,7 @@ public class HotelController {
 		service = new HotelService();
 	}
 	
+    @CrossOrigin(origins = "http://localhost:4200")
 	@RequestMapping(value = "/cheapest", method = RequestMethod.GET)
 	public ResponseEntity<List<HotelDTO>> getCheapest(@RequestParam(value = "check_in") String checkin, 
 													  @RequestParam(value = "check_out") String checkout, 
