@@ -1,6 +1,6 @@
 # cheapest-hotels
 
-This is a Spring Boot project.
+This is a Spring Boot project that consumes an external API and returns the top 3 cheapest hotels which are closed to airports.
 
 # Running
 
