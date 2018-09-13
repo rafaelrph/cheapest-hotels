@@ -8,7 +8,7 @@ This is a Spring Boot project (v 1.5.16) that consumes an external API and retur
 * Apache Maven - https://maven.apache.org/download.cgi
 * Spring Boot Cli - https://repo.spring.io/release/org/springframework/boot/spring-boot-cli/
 
-# Lauching
+# Launching
 
 1. Clone the repository
 2. Go to the project's folder on the command line
