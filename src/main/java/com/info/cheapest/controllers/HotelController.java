@@ -30,6 +30,7 @@ public class HotelController {
 		service = new HotelService();
 	}
 	
+    @CrossOrigin(origins = "https://aw-cheapest-hotels-front.herokuapp.com/")
 	@RequestMapping(value = "/cheapest", method = RequestMethod.GET)
 	public ResponseEntity<List<HotelDTO>> getCheapest(@RequestParam(value = "check_in") String checkin, 
 													  @RequestParam(value = "check_out") String checkout, 
