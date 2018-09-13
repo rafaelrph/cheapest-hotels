@@ -18,7 +18,7 @@ Project will be launched: http://localhost:8080/api/hotels/cheapest
 
 Example: http://localhost:8080/api/hotels/cheapest?check_in=2018-12-15&check_out=2018-12-16&location=YVR
 
-# Deployed - Heroku
+# Heroku - Deployment
 
 https://aw-cheapest-hotels-api.herokuapp.com/
 
